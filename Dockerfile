@@ -1,4 +1,6 @@
 FROM scratch
+ADD rootfs.tar.xz /
+CMD ["/bin/bash"]
 #RUN apt-get update
 #RUN git clone https://github.com/sstephenson/bats.git   && cd bats   && ./install.sh /usr/local   && cd ..   && rm -rf bats
 #RUN perl -MCPAN -e 'install TAP::Parser'
