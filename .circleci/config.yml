@@ -4,9 +4,9 @@ image_config: &image_config
   # either as project-specific environment variables
   # or as resources in your organization's org-global Context
 
-  IMAGE_NAME: Gui-AutoBuild-Ubuntu-Disco
+  IMAGE_NAME: gui-autobuild-image
 
-  IMAGE_TAG: Gui-Ubuntu-Disco
+  IMAGE_TAG: gui-autobuild
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
